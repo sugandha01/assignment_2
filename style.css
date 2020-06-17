@@ -1,4 +1,4 @@
-<style>
+
 /********** Base styles **********/
 * {
   box-sizing: border-box;
@@ -15,7 +15,7 @@ h1 {
 }
 div {
   
-  height: auto;
+ 
   
   border: 1px solid black;
   float: left;
@@ -23,6 +23,7 @@ div {
  position: relative;
  font-size: 16px;
 margin: 1%; 
+ height: auto;
 }
 .pl1
 {
@@ -57,23 +58,9 @@ text-align: center;
     padding-right: 30px;
     padding-left: 30px;
     padding-bottom: 30px;
-  }
-  .pl1 {
     width: 31%;
-
-
   }
-  .pl2 {
-    width: 31%;
- 
-
-  }
-
-  .pl3 {
-    width: 31%;
- 
-
-  }
+  
   
 }
 /********** Medium devices only **********/
@@ -144,4 +131,3 @@ text-align: center;
   background-color: #08E2F8;
   border: 1px solid black;
 }
-</style>
